@@ -1,0 +1,177 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<style>
+		body {
+			/* background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.eviaglobal.com%2Fimages%2Ftask-management-system.html&psig=AOvVaw2SrCfQ2Pg7nevuwKv3yTbC&ust=1681560833481000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCIijsbqsqf4CFQAAAAAdAAAAABADg"); */
+			background-size: cover;
+			background-color: rgb(243, 206, 206);
+			font-family: Arial, sans-serif;
+		}
+
+		.container {
+			display: flex;
+			justify-content: right;
+			align-items: right;
+			height: 100vh;
+		}
+
+		.card {
+			background-color: #c4d6ef;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+			padding: 30px;
+			width: 400px;
+		}
+
+		h1 {
+			text-align: right;
+			color: #444;
+			margin-bottom: 30px;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #666;
+		}
+
+		input[type="text"], input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+			font-size: 16px;
+			color: #444;
+		}
+
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<h1>Login</h1>
+			<form method="post" action="/login">
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="username" required>
+
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" required>
+
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Login Page</title>
+	<style>
+		body {
+			/* background-image: url("https://wallpapers.com/images/featured/sfuuafevnx2rwdpf.jpg"); */
+			/* background-image: url("https://orion-uploads.openroadmedia.com/sm_2c354edb140e-graveencounters.jpg");  */
+			/* background-image: url("https://www.syfy.com/sites/syfy/files/styles/scale--1200/public/2020/10/kidsalright_supernatural.jpg"); */
+			background-image: url("https://www.hp.com/us-en/shop/app/assets/images/uploads/prod/Smiling%20Employees1634335904096197.jpg");
+			background-size: cover;
+			/* font-family: Arial, sans-serif;  */
+			/* font-family: Montserrat, sans-serif;  */
+			font-family: Old English Text MT, serif;
+		
+			/* background-color: #1F1C2C; */
+			/* color: #fff; */
+		}
+		@font-face {font-family: "Old English Text MT"; src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot"); src: url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.woff") format("woff"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/f3258385782c4c96aa24fe8b5d5f9782.svg#Old English Text MT") format("svg"); }
+		
+
+		.container {
+			display: flex;
+			justify-content: right;
+			align-items: center;
+			height: 100vh;
+		}
+
+		.card {
+			background-color: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			border-radius: 5px;
+			padding: 30px;
+			width: 400px;
+		}
+
+		h1 {
+			text-align: right;
+			color: #fff;
+			margin-bottom: 30px;
+			background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		label {
+			display: block;
+			margin-bottom: 10px;
+			color: #666;
+		}
+
+		input[type="text"], input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			border-radius: 5px;
+			border: 1px solid #ccc;
+			margin-bottom: 20px;
+			font-size: 16px;
+			color: #444;
+		}
+
+		button[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		button[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<h1>Login</h1>
+			<form method="post" action="/login">
+				<label for="username">Username:</label>
+				<input type="text" name="username" id="username" required>
+
+				<label for="password">Password:</label>
+				<input type="password" name="password" id="password" required>
+
+				<button type="submit">Login</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
